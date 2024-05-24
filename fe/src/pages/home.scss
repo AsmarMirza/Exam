@@ -1,0 +1,432 @@
+.hero{
+position: relative;
+background-color: rgb(236, 253, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.heroMain{
+    display: flex;
+    padding: 100px;
+    width: 70%;
+    align-items: center;
+    gap: 40px;
+}
+.heroLeft{
+    padding: 20px;
+    width: 50%;
+}
+.heroRight{
+    padding: 20px;
+    width: 60%;
+}
+.heroLeftDif{
+    width: 400px;
+    font-size: 60px;
+}
+.leftText{
+    width: 400px;
+    line-height: 25px;
+}
+.heroBtn{
+    padding: 15px 40px;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(255, 36, 72);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.heroBtn:hover{
+    background-color: rgb(209, 41, 41);
+    transition: 0.3s;
+}
+@media screen and (max-width: 1200px) {
+  .heroMain{
+    padding: 50px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .heroRight{
+    padding: 50px;
+    width: 100%;
+}
+.heroLeft{
+    padding: 50px;
+    width: 100%;
+}
+.heroLeftDif{
+    width: 100%;
+    font-size: 60px;
+}
+.leftText{
+    width: 400px;
+    line-height: 25px;
+}
+
+     }
+     @media screen and (max-width: 609px) {
+        .heroMain{
+            padding: 10px;
+          padding-top: 30px;
+           
+          }
+          .heroLeftDif{
+          
+            font-size: 40px;
+        }
+          .leftText{
+            max-width: 100%;
+            line-height: 25px;
+        }
+        
+     }
+
+     @media screen and (max-width: 405px) {
+        .heroMain{
+            padding: 10px;
+          padding-top: 50px;
+           
+          }
+        .heroRight{
+            padding: 10px;
+            width: 100%;
+        }
+        .heroLeft{
+            padding: 20px;
+            width: 100%;
+        }
+       
+        
+     }
+
+     .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      width: 100%;
+        padding: 60px;
+        padding-top: 90px;
+        padding-bottom: 60px;
+     }
+     .mainHeader{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    
+     }
+     .mainMain{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+     }
+     .mainDif{
+        font-size: 40px;
+     }
+     .mainText{
+        color: rgb(139, 135, 135);
+        font-size: 20px;
+        font-weight: bolder;
+     }
+     .mainBoxes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+       
+        width: 100%;
+     }
+     .mainBox{
+        width: 20%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      
+border: 1px solid black;
+     }
+
+     @media screen and (max-width: 991px) {
+        .mainBox{
+            width: 40%;
+         
+         }
+
+         .main{
+    
+            padding: 20px;
+         }
+     }
+     @media screen and (max-width: 462px) {
+        .mainBox{
+            width: 90%;
+           
+         }
+         .mainBoxes{
+            flex-direction: column;
+         }
+
+         .main{
+    
+            padding: 40px;
+         }
+     }
+
+     .mainBox1{
+        width: 20%;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding: 10px;
+      
+
+     }
+     .mainBox1Text{
+        font-size: 20px;
+     }
+
+     @media screen and (max-width: 991px) {
+        .mainBox1{
+            width: 40%;
+         
+         }
+
+         .main{
+    
+            padding: 20px;
+         }
+     }
+     
+     @media screen and (max-width: 616px) {
+       .mainBox1Dif{
+        font-size: 16px;
+       }
+     }
+     @media screen and (max-width: 462px) {
+        .mainBox1{
+            width: 90%;
+           
+         }
+         .mainBoxes{
+            flex-direction: column;
+         }
+
+         .main{
+    
+            padding: 20px;
+         }
+         .mainBox1Dif{
+            font-size: 20px;
+           }
+     }
+     @media screen and (max-width: 364px) {
+       .mainDif{
+        font-size: 30px;
+       }
+      }
+
+      .subscribe{
+        background-image: url("https://preview.colorlib.com/theme/aranoz/img/subscribe_area.png");
+        height: 55vh;
+
+align-items: center;
+justify-content: center;
+display: flex;
+      }
+      .subscribeMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+      .subscribeDif{
+        color: rgb(253, 51, 104);
+        letter-spacing: 1px;
+      }
+      .subscribeText{
+        font-size: 50px;
+        font-weight: bolder;
+        width: 70%;
+        text-align: center;
+      }
+
+      .subscribeInp{
+        display: flex;
+        gap: 10px ;
+      }
+      .input{
+        width: 400px;
+        height: 60px;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+      }
+      .subsBtn{
+        width: 200px;
+        background-color: rgb(255, 32, 75);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+      }
+
+      .subsBtn:hover{
+        background-color: rgb(202, 85, 109);
+        transition: 0.3s;
+      }
+
+      @media screen and (max-width: 846px) {
+        .subscribeText{
+            padding: 10px;
+            font-size: 50px;
+            width: 100%;
+        }
+       }
+ 
+
+       @media screen and (max-width: 633px) {
+        .subscribeText{
+            padding: 10px;
+            font-size: 40px;
+            width: 100%;
+        }
+        .subscribeInp{
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+        .subsBtn{
+            height: 60px;
+        }
+      
+       }
+
+       @media screen and (max-width: 469px) {
+       
+        .input{
+            width: 290px;
+           
+          }
+      
+       }
+
+       .images{
+        display: flex;
+        padding: 100px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+       }
+       .imagesMain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+       }
+     .imagesImage{
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 20%;
+       border-right: 1px solid rgb(185, 169, 169);
+       text-align: center;
+   
+     }
+     .imagesImage1{
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 20%;
+        border-right: 1px solid rgb(185, 169, 169);
+        text-align: center;
+        border-bottom: 1px solid rgb(185, 169, 169);
+     }
+     .imagesImage2{
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 20%;
+
+        text-align: center;
+        border-bottom: 1px solid rgb(185, 169, 169);
+     }
+     .imagesImage3{
+        padding: 10px;
+        padding-bottom: 20px;
+        width: 20%;
+
+        text-align: center;
+       
+     }
+
+     @media screen and (max-width: 1046px) {
+       .imagesImage1{
+        width: 40%;
+        border: none;
+       }
+       .imagesImage{
+        width: 40%;
+        border: none;
+       }
+       .imagesImage2{
+        width: 40%;
+        border: none;
+       }.imagesImage3{
+        width: 40%;
+        border: none;
+       }
+  
+       }
+
+       
+     @media screen and (max-width: 666px) {
+        .imagesImage1{
+         width: 50%;
+         border: none;
+        }
+        .imagesImage{
+         width: 50%;
+         border: none;
+        }
+        .imagesImage2{
+         width: 50%;
+         border: none;
+        }.imagesImage3{
+         width: 50%;
+         border: none;
+        }
+   
+        }
+        @media screen and (max-width: 491px) {
+            .imagesImage1{
+             width: 100%;
+             border: none;
+            }
+            .imagesImage{
+             width: 100%;
+             border: none;
+            }
+            .imagesImage2{
+             width: 100%;
+             border: none;
+            }.imagesImage3{
+             width: 100%;
+             border: none;
+            }
+            .imagesMain{
+                gap: 30px;
+            }
+            .images{
+                padding: 50px;
+            }
+       
+            }
